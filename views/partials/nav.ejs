@@ -1,0 +1,21 @@
+</head>
+<body>
+  <nav>
+		<i class="fas fa-film fa-2x"></i>
+    <a 
+      href="/performers/new" 
+      <%- title === "Add Performer" ? 'class="active"' : "" %>
+    >
+      ADD PERFORMER
+    </a>
+    <a 
+      href="/movies/index" <%- title === 'All Movies' ? 'class="active"' : '' %>
+    >
+      ALL MOVIES
+    </a>
+    <a 
+      href="/movies/new" <%- title === 'Add Movie' ? 'class="active"' : '' %>
+    >
+      ADD MOVIE
+    </a>
+  </nav>
